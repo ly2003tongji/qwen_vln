@@ -26,3 +26,17 @@ checkpoints/
 .DS_Store
 *.swp
 *~
+
+# StreamVLN 大型数据与评估产物（不入库，按协议各自下载）
+/StreamVLN/data/
+/StreamVLN/results/
+/StreamVLN/checkpoints/
+
+# pip editable 安装产物
+*.egg-info/
+.eggs/
+build/
+*.so
+
+# 备份的旧 cuBLAS 库
+**/_bak_cublas121/
