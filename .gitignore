@@ -1,0 +1,28 @@
+# 大型 conda 环境（不需要版本控制）
+conda_envs/
+
+# HuggingFace 缓存
+hf_cache/
+
+# MP3D 数据集文件（体积过大）
+mp3d_parts/
+
+# 预编译 wheel 文件
+*.whl
+
+# 日志文件
+*.log
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 模型检查点（如果有本地存放）
+checkpoints/
+
+# 系统文件
+.DS_Store
+*.swp
+*~
